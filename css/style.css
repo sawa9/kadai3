@@ -1,0 +1,177 @@
+body {
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-family: 'Verdana';
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+}
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 32px;
+  text-align: center;
+}
+
+.text-sub {
+  color:#777;
+}
+.header-navigation {
+  width: 100%;
+  background-color: black;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  font-family: 'Verdana';
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.text-title {
+ 
+  color: white;
+  font-weight: inherit;
+  margin-bottom: 20px;
+}
+
+.card-contents {
+  padding: 40px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.left-contents {
+  width: 600px;
+  margin-right: 0;
+  float: left;
+}
+
+.right-contents {
+  width: 300px;
+  display: block;
+  float: left;
+}
+
+.blog-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.blog-list {
+  width:550px;
+  margin-right: 0;
+  float: left;
+}
+
+.blog-list:last-child {
+  margin-right: 0;
+}
+
+.blog-image {
+  margin-bottom: 10px;
+  margin-right: 7px;
+  width: 150px;
+  height: 150px;
+  border: 5px solid gray;
+  display: block;
+  float: left;
+}
+
+.text-title {
+  color: black;
+  font-size: 24px;
+}
+
+h4 {
+  color: skyblue;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  color: black;
+}
+
+p {
+  font-family: 'Verdana';
+}
+
+.new-gaiyou {
+  color: skyblue;
+}
+
+.new-image {
+  margin-bottom: 10px;
+  margin-left: 7px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid gray;
+  display: block;  
+  float: left;
+}
+
+.new-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.new-list {
+  width: 300px;
+  margin-right: 7px;
+  float: left;
+}
+
+.new-list:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
